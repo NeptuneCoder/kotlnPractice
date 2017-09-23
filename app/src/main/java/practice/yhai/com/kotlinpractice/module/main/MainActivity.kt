@@ -1,4 +1,4 @@
-package practice.yhai.com.kotlinpractice.moudle.main
+package practice.yhai.com.kotlinpractice.module.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

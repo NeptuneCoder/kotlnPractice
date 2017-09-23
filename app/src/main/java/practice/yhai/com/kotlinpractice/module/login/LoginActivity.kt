@@ -1,4 +1,4 @@
-package practice.yhai.com.kotlinpractice.moudle.login
+package practice.yhai.com.kotlinpractice.module.login
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter

@@ -1,9 +1,11 @@
-package practice.yhai.com.kotlinpractice.moudle.launch
+package practice.yhai.com.kotlinpractice.module.launch
 
 import android.os.Bundle
 import android.os.Handler
+import org.jetbrains.anko.startActivity
 import practice.yhai.com.kotlinpractice.common.BaseActivity
 import practice.yhai.com.kotlinpractice.R
+import practice.yhai.com.kotlinpractice.module.login.LoginActivity
 
 class LaunchActivity : BaseActivity() {
 
@@ -11,15 +13,8 @@ class LaunchActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_launch)
 
-        Handler().postDelayed(object: Runnable{
-            override fun run() {
-            }
-
-        },2000)
-
-
         Handler().postDelayed({
-
+            startActivity<LoginActivity>()
         },2000)
     }
 }

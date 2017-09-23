@@ -15,17 +15,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".moudle.main.MainActivity">
+        <activity android:name=".module.main.MainActivity">
+
+        </activity>
+        <activity android:name=".module.launch.LaunchActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".moudle.launch.LaunchActivity" />
-        <activity android:name=".common.BaseActivity" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".module.login.LoginActivity"
             android:label="@string/title_activity_login"></activity>
     </application>
 
