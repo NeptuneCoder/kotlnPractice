@@ -14,4 +14,6 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="and">\u0026</string>
+    <string name="addNew">增加一个</string>
 </resources>

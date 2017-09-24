@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title_name_array">
+        <item>广告位配置</item>
+        <item>广告源列表</item>
+        <item></item>
+        <item>广告位说明</item>
+    </string-array>
+
+
+
+    <string-array name="url_type">
+    <item>idfa</item>
+    <item>package_name</item>
+    <item>platform</item>
+    <item>sdk_key</item>
+    <item>model</item>
+    <item>brand</item>
+    <item>os</item>
+    <item>locale</item>
+    <item>network</item>
+</string-array>
+
+
+</resources>
